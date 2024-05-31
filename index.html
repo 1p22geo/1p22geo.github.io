@@ -48,13 +48,46 @@
       <h2 class="font-mono font-light text-lg mb-4">
         Click on the titles for GitHub source code repo.
       </h2>
-      <div class="relative w-3/4 flex gap-6 overflow-x-auto pb-14">
+      <div class="relative flex gap-6 flex-wrap justify-center pb-14">
+        <div class="snap-center shrink-0">
+          <div
+            class="w-[360px] h-[320px] bg-gray-200 rounded-lg shadow-xl text-justify block p-4"
+          >
+            <a href="https://github.com/1p22geo/schrodinger">
+              <h3 class="text-lg font-bold text-left">
+                Schr&ouml;dinger's equation aka libschrodinger
+              </h3>
+            </a>
+            <div>
+              One of the best projects I've made. Started out as a simple script
+              to solve a differential equation, refactored and modularised into
+              a library of classes with a web interface and usage examples.
+              Featuring Python, numpy, scipy, Flask, pytest and pdoc.
+              <a
+                href="https://1p22geo.github.io/schrodinger"
+                class="underline decoration-dashed hover:decoration-solid mt-4 block"
+                >A static version is running here</a
+              >
+              <a
+                href="https://pypi.org/project/libschrodinger"
+                class="underline decoration-dashed hover:decoration-solid mt-1 block"
+                >PyPI release</a
+              >
+              <a
+                href="https://aur.archlinux.org/packages/python-libschrodinger"
+                class="underline decoration-dashed hover:decoration-solid mt-1 block"
+                >Arch Linux release</a
+              >
+            </div>
+          </div>
+        </div>
+
         <div class="snap-center shrink-0">
           <div
             class="w-[360px] h-[320px] bg-gray-200 rounded-lg shadow-xl text-justify block p-4"
           >
             <a href="https://github.com/1p22geo/wordbook">
-              <h3 class="text-lg font-bold">WordBook</h3>
+              <h3 class="text-lg font-bold text-left">WordBook</h3>
             </a>
             <div>
               Still in development, but actually the most ambitious so far. A
@@ -72,7 +105,7 @@
             class="w-[360px] h-[320px] bg-gray-200 rounded-lg shadow-xl text-justify block p-4"
           >
             <a href="https://github.com/1p22geo/nextjs-chat">
-              <h3 class="text-lg font-bold">Next.js chat</h3>
+              <h3 class="text-lg font-bold text-left">Next.js chat</h3>
             </a>
             <div>
               A pretty basic real-time chat application, made with Next.js,
@@ -88,7 +121,7 @@
             class="w-[360px] h-[320px] bg-gray-200 rounded-lg shadow-xl text-justify block p-4"
           >
             <a href="https://github.com/1p22geo/nullcrypto">
-              <h3 class="text-lg font-bold">Null Crypto</h3>
+              <h3 class="text-lg font-bold text-left">Null Crypto</h3>
             </a>
             <div>
               Ever wondered what is it like to trade on a crypto currency
@@ -105,13 +138,43 @@
             >
           </div>
         </div>
+    <div class="snap-center shrink-0">
+          <div
+            class="w-[360px] h-[320px] bg-gray-200 rounded-lg shadow-xl text-justify block p-4"
+          >
+            <a href="https://github.com/1p22geo/wikipedai">
+              <h3 class="text-lg font-bold text-left">WikipedAI</h3>
+            </a>
+            <div>
+              Simple Wikipedia clone. The only difference is that when a user requests an article which does not exist, it gets an AI-generated template, which can then be updated with references (you know AI is bad at quoting sources), and edited by a user.
+              <a
+              href="https://hub.docker.com/r/1p22geo/wikipedai"
+              class="underline decoration-dashed hover:decoration-solid mt-4 block"
+              >I made a Docker container for easy running and deploying</a
+            >
+            </div>
+          </div>
+        </div>
+<div class="snap-center shrink-0">
+          <div
+            class="w-[360px] h-[320px] bg-gray-200 rounded-lg shadow-xl text-justify block p-4"
+          >
+            <a href="https://github.com/1p22geo/ai-mono">
+              <h3 class="text-lg font-bold text-left">AI-MONO</h3>
+            </a>
+            <div>
+              Tiny monorepo with multiple AI projects. All the way, from AI agents, through chatbots, until RAG as an Android app. I can't afford a cloud server, so you have to deploy them yourself, but it's worth it.
+            </div>
+          </div>
+        </div>
+
 
         <div class="snap-center shrink-0">
           <div
             class="w-[360px] h-[320px] bg-gray-200 rounded-lg shadow-xl text-justify block p-4"
           >
             <a href="https://github.com/1p22geo/networking-remastered">
-              <h3 class="text-lg font-bold">Networking Remastered</h3>
+              <h3 class="text-lg font-bold text-left">Networking Remastered</h3>
             </a>
             <div>
               Actually, it's called that just because it's the second version.
@@ -137,7 +200,7 @@
             class="w-[360px] h-[320px] bg-gray-200 rounded-lg shadow-xl text-justify block p-4"
           >
             <a href="https://github.com/1p22geo/battleship">
-              <h3 class="text-lg font-bold">Battleship 2</h3>
+              <h3 class="text-lg font-bold text-left">Battleship 2</h3>
             </a>
             <div>
               Once again, this is the second version, the first one (you guessed
@@ -156,35 +219,12 @@
             </div>
           </div>
         </div>
-        <div class="snap-center shrink-0">
-          <div
-            class="w-[360px] h-[320px] bg-gray-200 rounded-lg shadow-xl text-justify block p-4"
-          >
-            <a href="https://github.com/1p22geo/schrodinger">
-              <h3 class="text-lg font-bold">Schr&ouml;dinger's equation</h3>
-            </a>
-            <div>
-              We had rocket science, time for quantum physics. Numerical
-              solution of the Schr&ouml;dinger's equation. Basically it's a
-              differential equation describing the time evoltuion of particles'
-              wave functions in a potential field. It's a formula that describes
-              how electrons move. If you still don't understand, I feel sorry
-              for you for your terrible education.
-              <a
-                href="https://1p22geo.github.io/schrodinger"
-                class="underline decoration-dashed hover:decoration-solid mt-4 block"
-                >The results are available here.</a
-              >
-            </div>
-          </div>
-        </div>
-
-        <div class="snap-center shrink-0">
+               <div class="snap-center shrink-0">
           <div
             class="w-[360px] h-[320px] bg-gray-200 rounded-lg shadow-xl text-justify block p-4"
           >
             <a href="https://github.com/1p22geo/php-docmanager">
-              <h3 class="text-lg font-bold">PHP document manager</h3>
+              <h3 class="text-lg font-bold text-left">PHP document manager</h3>
             </a>
             <div>
               I guess you could call it a content management system... It's more
@@ -202,7 +242,7 @@
             class="w-[360px] h-[320px] bg-gray-200 rounded-lg shadow-xl text-justify block p-4"
           >
             <a href="https://github.com/1p22geo/tensorflow-chat">
-              <h3 class="text-lg font-bold">Tensorflow translate</h3>
+              <h3 class="text-lg font-bold text-left">Tensorflow translate</h3>
             </a>
             <div>
               It's still VERY unfinished (and untrained), but basically it's a
@@ -219,7 +259,7 @@
             class="w-[360px] h-[320px] bg-gray-200 rounded-lg shadow-xl text-justify block p-4"
           >
             <a href="https://github.com/1p22geo/mnist">
-              <h3 class="text-lg font-bold">MNIST script</h3>
+              <h3 class="text-lg font-bold text-left">MNIST script</h3>
             </a>
             <div>
               The hello world of machine learning. Python script for detecting
@@ -234,7 +274,7 @@
             class="w-[360px] h-[320px] bg-gray-200 rounded-lg shadow-xl text-justify block p-4"
           >
             <a href="https://github.com/1p22geo/united-documentation">
-              <h3 class="text-lg font-bold">United Documentation</h3>
+              <h3 class="text-lg font-bold text-left">United Documentation</h3>
             </a>
             <div>
               Simple content management system / blog with Express.js and
@@ -246,18 +286,19 @@
         </div>
       </div>
       <h2 class="font-bold text-lg m-2">My skills</h2>
+      <div class="flex flex-row flex-wrap w-content mx-auto justify-center">
       <div class="mb-4">
         <div class="flex gap-4 items-center">
           <div class="w-[100px] h-4 flex">
-            <div class="w-[90px] bg-blue-600"></div>
-            <div class="w-[10px] bg-blue-100"></div>
+            <div class="w-[95px] bg-blue-600"></div>
+            <div class="w-[5px] bg-blue-100"></div>
           </div>
           <div>Next.js</div>
         </div>
         <div class="w-[500px] ml-4">
           I feel pretty comfortable using it, it's been my web framework of
-          choice for a long time, but there are still some features (especially
-          the newer ones) that may still be unclear to me.
+          choice for a long time, but I might not be up-to-date with the latest
+          knowledge.
         </div>
       </div>
       <div class="mb-4">
@@ -309,16 +350,32 @@
       <div class="mb-4">
         <div class="flex gap-4 items-center">
           <div class="w-[100px] h-4 flex">
-            <div class="w-[80px] bg-blue-600"></div>
-            <div class="w-[20px] bg-blue-100"></div>
+            <div class="w-[90px] bg-blue-600"></div>
+            <div class="w-[10px] bg-blue-100"></div>
           </div>
           <div>Docker</div>
         </div>
         <div class="w-[500px] ml-4">
           Docker makes everything cross-platform, as long as you can make Docker
           work there. While I'm pretty comfortable with the basic usage
-          (building images, Dockerfile, docker compose), more advanced features
-          like Docker swarm still scare me out.
+          (building images, Dockerfile, docker compose) and know a bit of
+          docker-swarm usage, cloud extensions like Kubernetes are still too
+          magical (and too expensive) for me.
+        </div>
+      </div>
+      <div class="mb-4">
+        <div class="flex gap-4 items-center">
+          <div class="w-[100px] h-4 flex">
+            <div class="w-[80px] bg-blue-600"></div>
+            <div class="w-[20px] bg-blue-100"></div>
+          </div>
+          <div>AI tooling</div>
+        </div>
+        <div class="w-[500px] ml-4">
+          While simple at its idea - ask for whatever, get instant responses -
+          prompt engineering and complicated AI pipelines are still magic for
+          me. But I have gotten a hang of integrating AI APIs (like Ollama) into
+          different areas of programming.
         </div>
       </div>
       <div class="mb-4">
@@ -339,6 +396,35 @@
       <div class="mb-4">
         <div class="flex gap-4 items-center">
           <div class="w-[100px] h-4 flex">
+            <div class="w-[70px] bg-blue-600"></div>
+            <div class="w-[30px] bg-blue-100"></div>
+          </div>
+          <div>AngularJS</div>
+        </div>
+        <div class="w-[500px] ml-4">
+          An elegant framework, beautiful in its many usage forms. However, its
+          template syntax may be difficult to learn, as oposed to React which
+          uses native JS functions and syntax.
+        </div>
+      </div>
+      <div class="mb-4">
+        <div class="flex gap-4 items-center">
+          <div class="w-[100px] h-4 flex">
+            <div class="w-[60px] bg-blue-600"></div>
+            <div class="w-[40px] bg-blue-100"></div>
+          </div>
+          <div>vue.js</div>
+        </div>
+        <div class="w-[500px] ml-4">
+          Simple and practical, but auto-importing components and weird syntax
+          conventions which grew over time make an excellent environment for
+          bugs to spawn.
+        </div>
+      </div>
+
+      <div class="mb-4">
+        <div class="flex gap-4 items-center">
+          <div class="w-[100px] h-4 flex">
             <div class="w-[95px] bg-blue-600"></div>
             <div class="w-[5px] bg-blue-100"></div>
           </div>
@@ -350,6 +436,7 @@
           opportunities for a 'hobby sysadmin'. But I still use Linux and play
           with networks and penetration testing at home.
         </div>
+      </div>
       </div>
     </main>
   </body>
